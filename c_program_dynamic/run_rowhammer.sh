@@ -1,8 +1,8 @@
 #!/bin/bash
 
-gcc ./source/rowhammer.c -o ./source/rowhammer
+gcc ./source/rowhammer_dynamic.c -o ./source/rowhammer_dynamic
 
-rowhammer="./source/rowhammer" 
+rowhammer="./source/rowhammer_dynamic" 
 
 echo "[start rowhammer]"
 $rowhammer
